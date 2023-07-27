@@ -1,5 +1,8 @@
 name: Aqua
-on: pull_request
+on:
+  push:
+    branches:
+      - main
 jobs:
   aqua:
     name: Aqua scanner
